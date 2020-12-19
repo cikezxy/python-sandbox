@@ -2,7 +2,7 @@ from urllib import request
 from urllib import parse
 import json
 
-url = "https://git.homecreditcfc.cn/api/v4/projects?" + parse.urlencode({"page": 1, "per_page": 20})
+url = "htt?" + parse.urlencode({"page": 1, "per_page": 20})
 req = request.Request(url=url,
                       headers={"PRIVATE-TOKEN": "WLuxzfzn1CYxSqzthWs1"},
                       method="GET")
